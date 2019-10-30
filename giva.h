@@ -56,6 +56,8 @@ void smart_house_device_print_binary_content(unsigned int cmd); // Verificar o b
 
 void smart_house_device_print(device *home_d); // Imprimir status do sistema (nome do usuario e conexão)
 
+int check_voice_command(command *cmd); //Checa se o comando de voz é válido
+
 
 // [DICA] é permitido a criação de outras funcoes auxiliares para execucao dessas acima, isso talvez facilite
 // e deixe mais organizado o seu codigo.
